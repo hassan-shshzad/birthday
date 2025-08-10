@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Ibrahim 🎉</title>
+<style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #0a0f1f, #162447);
+        color: white;
+        overflow-x: hidden;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background: rgba(0,0,0,0.3);
+    }
+    header h1 {
+        font-size: 2.5rem;
+        animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+        from { text-shadow: 0 0 10px cyan; }
+        to { text-shadow: 0 0 20px deepskyblue; }
+    }
+    .profile-pic {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 3px solid cyan;
+        object-fit: cover;
+        box-shadow: 0 0 15px cyan;
+    }
+    .slider {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 20px;
+        padding: 20px;
+    }
+    .slider img {
+        width: 90%;
+        max-width: 500px;
+        height: 300px;
+        border-radius: 15px;
+        object-fit: cover;
+        scroll-snap-align: center;
+        box-shadow: 0 0 15px rgba(0,255,255,0.6);
+        transition: transform 0.3s ease;
+    }
+    .slider img:hover {
+        transform: scale(1.05);
+    }
+    .message {
+        text-align: center;
+        padding: 30px;
+        font-size: 1.3rem;
+        max-width: 800px;
+        margin: auto;
+        background: rgba(255,255,255,0.05);
+        border-radius: 15px;
+        box-shadow: 0 0 15px rgba(0,255,255,0.4);
+    }
+    .video-btn {
+        display: block;
+        margin: 20px auto;
+        padding: 15px 30px;
+        background: cyan;
+        color: black;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    .video-btn:hover {
+        background: deepskyblue;
+        color: white;
+        box-shadow: 0 0 15px deepskyblue;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+        font-size: 1rem;
+        background: rgba(0,0,0,0.3);
+    }
+</style>
+</head>
+<body>
+
+
+
+<header>
+    <h1>🎉 Happy Birthday Ibrahim 🎉</h1>
+</header>
+
+<div class="slider">
+    <img src="IMG_20211031_172828.jpg" alt="Ibrahim Pic 1">
+    <img src="ibui.jpg" alt="Ibrahim Pic 2">
+    <img src="WhatsApp Image 2025-08-10 at 12.25.50_4e1f9fea.jpg" alt="Ibrahim Pic 3">
+    <img src="WhatsApp Image 2025-08-10 at 12.25.52_c4a2a348.jpg" alt="Ibrahim Pic 4">
+</div>
+
+<div class="message">
+    Wishing you a day filled with happiness, laughter, and the joy you bring to everyone around you.  
+    May your future be as bright as your smile and your dreams come true! 💙  
+</div>
+
+<button class="video-btn" onclick="window.open('https://www.youtube.com/shorts/OfZCpCZQgco')">
+    🎵 Play Special Birthday Video
+</button>
+
+<footer>
+    From ❤️ Taya Jan Family — Made by Hassan Bhai
+</footer>
+
+</body>
+</html>
